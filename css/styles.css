@@ -10,6 +10,7 @@ body {
 .logo {
     margin-left: 20px;
     margin-top: 18px;
+    vertical-align: top;
 }
 /* we need to align navigation horizontally */
 .nav-list, .nav-ul {
