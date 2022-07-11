@@ -1,0 +1,119 @@
+body {
+    background-color: BlanchedAlmond;
+}
+/* set up navigation design */
+.nav-main {
+    width: 1440px;
+    height: 50px;
+}
+/* logo position */
+.logo {
+    margin-left: 20px;
+    margin-top: 18px;
+}
+/* we need to align navigation horizontally */
+.nav-list, .nav-ul {
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+.nav-ul {
+    vertical-align: top;
+    margin-left: 92px;
+    margin-top: 20px;
+}
+.list2, .list3, .list4 {
+    color: #A6ADB4;
+    margin-left: 22px;
+}
+.profile-pic {
+    margin-left: 40px;
+}
+/* start stylizing section 1 */
+.section1 {
+    width: 1160px;
+    height: 410px;
+    margin: 25px auto 0;
+}
+.subtitle {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* set up out paragraphs1 */
+.container1 {
+    width: 1160px;
+    height: 350px;
+    margin-top: 40px;
+}
+.image-wraper1 {
+    display: inline-block;
+    position: relative;
+}
+.text1, .text2, .text3 {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+}
+.text1 {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    font-weight: bold;
+}
+/* lets do box1 */
+.box1, .box2, .box3 {
+    width: 360px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+.box2, .box3 {
+    margin-left: 40px;
+}
+p {
+    color: #A6ADB4;
+    font-size: 13;
+    font-family: Acumin Pro;
+    width: 280px;
+    margin: 66px auto;
+}
+/* stylize section 2 */
+.section2 { 
+    width: 1160px;
+    height: 960px;
+    margin: 58px auto 234px;
+}
+.box4, .box5 {
+    margin-top: 40px;
+    display: inline-block;
+}
+.bridge {
+    position: relative;
+    margin-bottom: 40px;
+}
+.text2 {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+/* stylize box5 */
+.box5 {
+    width: 360px;
+    height: 896px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+.elephant {
+    position: relative;
+    margin-bottom: 102px;
+}
+.text3 {
+    position: absolute;
+    left: 40px;
+    top: 18px;
+}
+.parot {
+    margin-bottom: 102px;
+}
