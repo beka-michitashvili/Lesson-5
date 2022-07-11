@@ -1,10 +1,20 @@
 body {
     background-color: BlanchedAlmond;
+    height: 1800px;
+    padding-top: 50px;
+}
+.d-inline-block {
+    display: inline-block;
 }
 /* set up navigation design */
 .nav-main {
-    width: 1440px;
+    background-color: cadetblue;
+    width: 100%;
     height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 1;
 }
 /* logo position */
 .logo {
@@ -14,7 +24,6 @@ body {
 }
 /* we need to align navigation horizontally */
 .nav-list, .nav-ul {
-    display: inline-block;
     font-family: Helvetica;
     font-size: 11px;
     font-weight: bold;
@@ -50,7 +59,6 @@ body {
     margin-top: 40px;
 }
 .image-wraper1 {
-    display: inline-block;
     position: relative;
 }
 .text1, .text2, .text3 {
@@ -69,7 +77,6 @@ body {
     width: 360px;
     height: 350px;
     background-color: #FFFFFF;
-    display: inline-block;
 }
 .box2, .box3 {
     margin-left: 40px;
@@ -89,7 +96,6 @@ p {
 }
 .box4, .box5 {
     margin-top: 40px;
-    display: inline-block;
 }
 .bridge {
     position: relative;
@@ -118,4 +124,10 @@ p {
 }
 .parot {
     margin-bottom: 102px;
+}
+/* image chat */
+.chat-block {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
 }
